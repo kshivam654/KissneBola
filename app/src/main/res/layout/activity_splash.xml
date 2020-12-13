@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b7d0e8"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/comfortaa"
+        android:gravity="center_horizontal"
+        android:text="SEND RANDOM MESSAGES AND RECIEVE SOME"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="24sp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/dancer"
+        android:src="@drawable/splash1" />
+
+    <Button
+        android:id="@+id/conti"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="#FF5722"
+        android:text="Continue"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textStyle="bold|italic"
+        android:fontFamily="@font/comfortaa"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
